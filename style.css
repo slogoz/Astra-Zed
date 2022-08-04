@@ -1,0 +1,67 @@
+/**
+Theme Name: Москва - Аренда
+Author: Verstartnew
+Author URI: https://kwork.ru/user/verstartnew
+Description: Дочерняя тема Москва - Аренда ( Astra )
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: moskva_arenda
+Template: astra
+*/
+
+/* TODO: helpers */
+/* style: color */
+.zd-violet {
+    color: #7d24ff;
+}
+
+.zd-white {
+    color: #fff;
+}
+
+.zd-smootblack {
+    color: rgba(0, 0, 0, .92);
+}
+
+.zd-dark-smootgrey {
+    color: rgba(0, 0, 0, .56);
+}
+
+.zd-smootgrey {
+    color: rgba(255, 255, 255, .52);
+}
+
+.zd-smootwhite {
+    color: rgba(255, 255, 255, .97);
+}
+
+.zd-main-title {
+    font-family: Halvar Breitschrift, YS Text, Helvetica Neue, Arial, sans-serif;
+    font-size: 58px;
+    line-height: 56px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.zd-main-subtitle {
+    font-family: Halvar Breitschrift, YS Text, Helvetica Neue, Arial, sans-serif;
+    font-size: 58px;
+    line-height: 56px;
+    font-weight: 800;
+    color: #fff;
+}
+
+/* /: helpers */
+
+/* TODO: main */
+body {
+    font-feature-settings: "liga", "kern";
+    font-family: YS Text, Helvetica Neue, Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: contain;
+}
+
+/* /: main */
